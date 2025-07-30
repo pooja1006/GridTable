@@ -5,15 +5,13 @@
     overflow: hidden;
   }
   
-  /* Header Styling */
   .ag-header {
-    background-color: #1976d2 !important; /* Blue header */
+    background-color: #1976d2 !important;
     color: white !important;
     font-weight: bold;
     text-transform: uppercase;
   }
   
-  /* Alternate Row Colors */
   .ag-row-even {
     background-color: #f9f9f9;
   }
@@ -21,13 +19,11 @@
     background-color: #ffffff;
   }
   
-  /* Row Hover Effect */
   .ag-row-hover {
     background-color: #e3f2fd !important;
     cursor: pointer;
   }
   
-  /* Cell Borders */
   .ag-cell {
     border-right: 1px solid #ddd;
   }

@@ -30,12 +30,12 @@ const Dashboard = () => {
     {
       headerName: "Skills",
       field: "skills",
-      valueFormatter: (params) => params.value.join(", ") // ✅ Show like React, Node.js, JavaScript
+      valueFormatter: (params) => params.value.join(", ") 
     },
     { headerName: "Manager", field: "manager" }
   ]);
 
-  // ✅ Search when pressing Enter
+  
   const handleKeyDown = (e) => {
     if (e.key === "Enter" && gridRef.current) {
       gridRef.current.api.setGridOption("quickFilterText", searchTerm);
@@ -46,7 +46,7 @@ const Dashboard = () => {
     <div style={{ width: "95%", margin: "20px auto" }}>
       <h2 style={{ textAlign: "center" }}>Employee Dashboard</h2>
 
-      {/* Search bar */}
+     
       <div style={{ textAlign: "center", marginBottom: "10px" }}>
         <input
           type="text"
